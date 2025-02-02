@@ -8,5 +8,16 @@ This repository also includes other side projects using the same FBRef data.<br>
 * Feature Selection
 * Metric Creation
 * Data Visualization
+## Libraries:
+* <b>numpy, pandas</b> - for data processing
+* <b>requests, StringIO</b> - for data scraping
+* <b>time</b> - delay/sleep between requests
+* <b>timeit</b> - measuring speed/performance
+* <b>warnings</b> - suppressing warnings
+* <b>matplotlib</b> - for data visualization (in graphs)
+* <b>umap</b> - dimension reduction technique used for visualization 
+* <b>StandardScaler</b> - scaling data to mean 0 and variance 1 (common practice for machine learning projects)
+* <b>scipy.stats, distance</b> - for measuring cosine similarity (for finding similar players)
+* <b>streamlit</b> - for data visualization (as a web app)
 ## Contents:
-2324_fbref_data_scraper.ipynb, as the name implies, covers the <b>Data Scraping</b> phase. It also includes the <b>data cleaning</b>, <b>feature selection</b>, and some parts of <b>metric creation</b> 
+2324_fbref_data_scraper.ipynb, as the name implies, covers the <b>Data Scraping</b> phase. It also includes <b>data cleaning</b>, <b>feature selection</b>, and some parts of <b>metric creation</b>, with the goal of exporting a large dataset (in csv format) for use in other applications.
