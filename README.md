@@ -3,8 +3,8 @@ This football data analysis project is one of my major projects of the year, and
 The main output of this project is a football player stats dashboard web app using FBRef data.<br>
 This repository also includes other side projects using the same FBRef data.<br>
 > [!NOTE]  
-> Some advanced FBRef data for certain leagues have been unavailable since ~28 January 2025.
-> Keep this in mind when running the 2324_fbref_data_scraper.ipynb, which was coded with the Big 8 Leagues (Big 5 ENG, ESP, FRA, GER, ITA + POR, NED, BEL) in mind.
+> Some advanced FBRef data for certain leagues have been unavailable since ~28 January 2025.<br>
+> Keep this in mind when running the 2324_fbref_data_scraper.ipynb, which was coded with the Big 8 Leagues (Big 5 ENG, ESP, FRA, GER, ITA + POR, NED, BEL) in mind.<br>
 > For men's football, only the Big 5 European Leagues, MLS, Brazilian Serie A, English Championship and Italian Serie B have full data coverage.
 ## Contents:
 * Scraping Module - 2324_fbref_data_scraper.ipynb (as the name implies) covers <b>data scraping</b> as well as <b>data cleaning</b>, <b>feature selection</b>, and some parts of <b>metric creation</b>, with the goal of exporting a large dataset (in csv format) for use in other applications.
