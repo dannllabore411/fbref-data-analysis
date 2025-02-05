@@ -9,7 +9,9 @@ This repository also includes other side projects using the same FBRef data.<br>
 ## Contents:
 * Scraping Module - 2324_fbref_data_scraper.ipynb (as the name implies) covers <b>data scraping</b> as well as <b>data cleaning</b>, <b>feature selection</b>, and some parts of <b>metric creation</b>, with the goal of exporting a large dataset (in csv format) for use in other applications.
 * Data Visualization - 2324_big8_ui.py (for uploading soon)
-* Other Exploratory Projects (coming soon)
+* Position Clustering - 2324_big8_clusters_touch.ipynb
+* Player Similarity/Comparison - 2324_big8_compare.ipynb
+* Feature Selection Tests - 2324_big8_selection_feature.ipynb (documentation pending)
 * Women's Football Applications - essentially the same as above, but for women's leagues
 ## Phases:
 * Data Scraping
