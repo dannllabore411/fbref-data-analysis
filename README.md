@@ -6,9 +6,10 @@ This repository also includes other side projects using the same FBRef data.<br>
 > Some advanced FBRef data for certain leagues have been unavailable since ~28 January 2025.<br>
 > Keep this in mind when running the 2324_fbref_data_scraper.ipynb, which was coded with the Big 8 Leagues (Big 5 ENG, ESP, FRA, GER, ITA + POR, NED, BEL) in mind.<br>
 > For men's football, only the Big 5 European Leagues, MLS, Brazilian Serie A, English Championship and Italian Serie B have full data coverage.
-## Contents:
-* Scraping Module - 2324_fbref_data_scraper.ipynb, covers <b>data scraping</b> as well as <b>data cleaning</b>, <b>feature selection</b>, and some parts of <b>metric creation</b>, with the goal of exporting a large dataset (in csv format) for use in other applications.
-* Data Visualization - 2324_big8_ui.py, UI implementation of code, to be run with <b>streamlit</b> ($ streamlit run 2324_big8_ui.py on terminal). Needs output from scraping module (2324_top_8_raw.csv) on the same folder.
+## Main Contents:
+* Scraping Module - <b>2324_fbref_data_scraper.ipynb</b>, covers <b>data scraping</b> as well as <b>data cleaning</b>, <b>feature selection</b>, and some parts of <b>metric creation</b>, with the goal of exporting a large dataset (in csv format) for use in other applications.
+* Data Visualization - <b>2324_big8_ui.py</b>, UI implementation of code, to be run with <b>streamlit</b> ($ streamlit run 2324_big8_ui.py on terminal). Needs output from scraping module (2324_top_8_raw.csv) on the same folder.
+## Other Contents:
 * Position Clustering - 2324_big8_clusters_touch.ipynb - exploratory project where I <b>classify players by position</b> using derived %Touches metrics (proportion of touches by specific pitch zone)
 * Player Similarity/Comparison - 2324_big8_compare.ipynb - exploratory project on a <b>similar player recommender</b> tool, using the concept of <b>cosine similarity</b> on FBRef data
 * Feature Selection Tests - 2324_big8_selection_feature.ipynb (documentation pending)
